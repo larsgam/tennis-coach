@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8f9fa;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a5276;
+      color: white;
+      padding: 1rem 2rem;
+    }
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    header a:hover { text-decoration: underline; }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 1rem; color: #1a5276; }
+    h2 { font-size: 1.3rem; margin: 1.5rem 0 0.5rem; color: #1a5276; }
+    h3 { font-size: 1.1rem; margin: 1.2rem 0 0.4rem; }
+    p { margin-bottom: 0.8rem; }
+    ul, ol { margin: 0.5rem 0 0.8rem 1.5rem; }
+    li { margin-bottom: 0.3rem; }
+    a { color: #1a5276; }
+    a:hover { color: #2980b9; }
+    .back { margin-bottom: 1.5rem; }
+    .back a {
+      font-size: 0.9rem;
+      color: #666;
+      text-decoration: none;
+    }
+    .back a:hover { color: #1a5276; }
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .category-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.2rem;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.2s;
+    }
+    .category-card:hover {
+      box-shadow: 0 2px 8px rgba(26,82,118,0.15);
+      color: inherit;
+    }
+    .category-card h3 { color: #1a5276; margin: 0 0 0.3rem; }
+    .category-card p { font-size: 0.85rem; color: #666; margin: 0; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #999;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      .category-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="{{ '/' | relative_url }}">🎾 {{ site.title }}</a>
+  </header>
+  <div class="container">
+    {% if page.url != '/' %}
+    <div class="back"><a href="{{ '/' | relative_url }}">← Tilbage til oversigt</a></div>
+    {% endif %}
+    {{ content }}
+  </div>
+  <footer>{{ site.title }} — personlig knowledge base</footer>
+</body>
+</html>

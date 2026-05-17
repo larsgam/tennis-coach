@@ -1,3 +1,8 @@
+---
+layout: default
+title: Taktik
+---
+
 # Taktik
 
 Råd og tips til taktik — kampstrategi, mønstre, modstanderanalyse og beslutninger under pres.

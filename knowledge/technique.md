@@ -1,3 +1,8 @@
+---
+layout: default
+title: Teknik
+---
+
 # Teknik
 
 Generelle tekniske råd — fodarbejde, balance, forberedelse, sving og afslutning.
