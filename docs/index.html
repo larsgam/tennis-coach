@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tennis Coach — Lars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <nav class="site-nav"></nav>
+
+  <div class="hero">
+    <div class="hero-eyebrow">Personlig Knowledge Base</div>
+    <h1>Tennis Coach</h1>
+    <p>Tips, taktik og teknik — samlet til brug i træning og kamp</p>
+    <div class="hero-search">
+      <input type="search" id="hero-search-input" placeholder="Søg på tværs af alle tips…" autocomplete="off">
+      <div class="hero-search-dropdown" id="hero-search-dropdown"></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="category-grid">
+      <a class="category-card" href="forehand.html">
+        <h3>Forhånd</h3>
+        <p>Teknik, topspin, stance og aggressivitet fra baseline</p>
+      </a>
+      <a class="category-card" href="backhand.html">
+        <h3>Baghånd</h3>
+        <p>Énhåndet baghånd — topspin, slice og pres-situationer</p>
+      </a>
+      <a class="category-card" href="serve.html">
+        <h3>Serv</h3>
+        <p>Første og anden serv, konsistens og placering</p>
+      </a>
+      <a class="category-card" href="tactics.html">
+        <h3>Taktik</h3>
+        <p>Kampstrategi, mønstre og beslutninger under pres</p>
+      </a>
+      <a class="category-card" href="technique.html">
+        <h3>Teknik</h3>
+        <p>Ketcherbevægelse, balance og sving — generelle råd</p>
+      </a>
+      <a class="category-card" href="mental.html">
+        <h3>Mental</h3>
+        <p>Fokus, rutiner og håndtering af pres</p>
+      </a>
+      <a class="category-card" href="focus-areas.html">
+        <h3>Indsatsområder</h3>
+        <p>Aktuelle fokuspunkter — teknisk, taktisk og mentalt</p>
+      </a>
+    </div>
+  </main>
+
+  <footer>Lars's Tennis Coach &mdash; Personlig knowledge base</footer>
+
+  <script src="assets/nav.js"></script>
+  <script>
+    TennisNav.buildNav('nav-search-input', 'nav-search-dropdown');
+    TennisNav.attachHeroSearch('hero-search-input', 'hero-search-dropdown');
+  </script>
+</body>
+</html>
