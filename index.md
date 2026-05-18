@@ -32,4 +32,8 @@ Personlig knowledge base med råd og tips til at blive en bedre tennisspiller.
     <h3>Mental</h3>
     <p>Fokus, rutiner og håndtering af pres</p>
   </a>
+  <a class="category-card" href="{{ '/focus-areas' | relative_url }}">
+    <h3>Indsatsområder</h3>
+    <p>Aktuelle fokuspunkter — teknisk, taktisk og mentalt</p>
+  </a>
 </div>
