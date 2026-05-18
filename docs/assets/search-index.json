@@ -30,6 +30,16 @@
     "url": "forehand.html#forehand-stance"
   },
   {
+    "id": "serve-toss-arm",
+    "title": "Hold kastearmen strakt opad så længe som muligt",
+    "category": "serve",
+    "categoryLabel": "Serv",
+    "date": "2026-05-18",
+    "source": "træner",
+    "body": "Hold venstre arm strakt opad under servesvingen. Aktiv nedadtrækning ved ketchersvingen driver højre skulder opad via angulær momentum. Holder kroppen høj og fokuserer kastet.",
+    "url": "serve.html#serve-toss-arm"
+  },
+  {
     "id": "tactics-build-first",
     "title": "Mod defensive spillere: Byg først — angrib kun på den korte bold",
     "category": "tactics",
