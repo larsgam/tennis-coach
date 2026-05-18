@@ -1,0 +1,32 @@
+[
+  {
+    "id": "technique-topspin",
+    "title": "Sving-sti bestemmer topspin — ikke svinghastigheden",
+    "category": "technique",
+    "categoryLabel": "Teknik",
+    "date": "2026-05-18",
+    "source": "holdtræning",
+    "body": "Ketcherbevægelsen skal have konstant høj hastighed. Det er sving-stien der afgør topspinmængden: start højt, gå dybt ned, sving opad. Ændr stien — ikke hastigheden — for at justere. Swoosh-lyden skal altid være der.",
+    "url": "technique.html#technique-topspin"
+  },
+  {
+    "id": "forehand-stance",
+    "title": "Brug semi-open eller lukket stance — ikke open stance",
+    "category": "forehand",
+    "categoryLabel": "Forhånd",
+    "date": "2026-05-18",
+    "source": "holdtræning",
+    "body": "Semi-open som standard. Lukket stance til inside-in (longline langs baghåndssiden). Open stance kun under tidspres. Bredere stance for at komme ned i knæene.",
+    "url": "forehand.html#forehand-stance"
+  },
+  {
+    "id": "tactics-build-first",
+    "title": "Mod defensive spillere: Byg først — angrib kun på den korte bold",
+    "category": "tactics",
+    "categoryLabel": "Taktik",
+    "date": "2026-05-18",
+    "source": "coaching-session",
+    "body": "Grønt lys for angreb: bolden er kort OG du er i balance. Alt andet: topspin cross-court, 1 meter over nettet. Angrib med topspin og sigte 1 meter inde i banen.",
+    "url": "tactics.html#tactics-build-first"
+  }
+]
