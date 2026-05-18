@@ -391,9 +391,30 @@ a:hover { color: var(--clay); border-color: var(--clay); }
   border-radius: 3px;
 }
 
-.tip-body { font-size: 0.95rem; line-height: 1.65; }
+.tip-body {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  display: none;
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--border);
+}
+
+.tip-card.open .tip-body { display: block; }
+
 .tip-body p { margin-bottom: 0.5rem; }
 .tip-body p:last-child { margin-bottom: 0; }
+
+.tip-header::after {
+  content: '›';
+  margin-left: auto;
+  font-size: 1.1rem;
+  color: var(--clay);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.tip-card.open .tip-header::after { transform: rotate(90deg); }
 
 /* ── SECTION HEADERS (focus-areas) ── */
 .section-label {

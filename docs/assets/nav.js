@@ -43,6 +43,7 @@
       </div>
     `;
     attachSearch(searchInputId, dropdownId);
+    initAccordion();
   }
 
   function attachSearch(inputId, dropdownId) {
@@ -114,6 +115,19 @@
       if (!input.contains(e.target) && !dropdown.contains(e.target)) {
         dropdown.classList.remove('open');
       }
+    });
+  }
+
+  function initAccordion() {
+    document.querySelectorAll('.tip-card').forEach(function (card) {
+      const header = card.querySelector('.tip-header');
+      const body = card.querySelector('.tip-body');
+      if (!header || !body) return;
+      header.style.cursor = 'pointer';
+      header.setAttribute('role', 'button');
+      header.addEventListener('click', function () {
+        card.classList.toggle('open');
+      });
     });
   }
 
