@@ -39,6 +39,10 @@ Blive en bedre **kampspiller** — vinde flere point og kampe ved at forbedre ta
 - Mental og taktisk: ønsker enkle, konkrete redskaber han kan bruge direkte i kamp — ikke teori for teoriens skyld
 - Havde en tidligere træner der var god til dette, og det resonerede særligt godt
 
+## Coaching-rutine
+
+- Vil gerne tale med coachen **inden og efter** hver tennissession — fokuspunkt før, analyse efter
+
 ## Træning
 
 - Lejlighedsvise private timer
