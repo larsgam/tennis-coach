@@ -8,6 +8,8 @@
     { href: 'technique.html',   label: 'Teknik',         id: 'technique' },
     { href: 'mental.html',      label: 'Mental',         id: 'mental' },
     { href: 'focus-areas.html', label: 'Indsatsområder', id: 'focus-areas' },
+    { href: 'player-types.html', label: 'Spillerprofiler', id: 'player-types' },
+    { href: 'problems.html',     label: 'Problemer',      id: 'problems' },
   ];
 
   let searchIndex = null;
